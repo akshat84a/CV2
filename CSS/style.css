@@ -1,0 +1,116 @@
+body{
+margin: 0;
+    text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+}
+h1{
+    width:20%;
+    margin:50px auto 0 auto;
+    font-family:serif;
+    font-size: 3em;
+    color:  #66BFBF;
+    line-height: 1;
+}
+h2{
+    font-size:2.5rem;
+    font-family: monospace;
+    color:  #66BFBF;
+    font-weight: normal;
+}
+h3{
+    color:#11999E;
+}
+a{
+    color:#11999E;
+    margin-right: 50px;
+    text-decoration: none;
+}
+a:hover{
+    color:#EAF6F6;
+}
+.top-container{
+    background-color: #BAFFB4;
+    position:relative;
+    padding-top: 100px;
+}
+.middle-container{
+    padding-bottom: 100px;
+}
+.bottom-container{
+    background-color:orange;
+    padding:50px,0px,20px;
+}
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right:300px;
+}
+.bottom-cloud{
+    position:absolute;
+    top:300px;
+    left:300px;
+    margin: 0;
+}
+span.pro{
+    text-decoration: underline;   
+}
+.contact-img{
+    border-radius: 100%;
+}
+.skill-row{
+    margin:100px auto 100px auto;
+ width:50rem;
+ text-align:left;
+ line-height: 2;
+}
+.skill-img{
+width: 25%;
+padding-right: 30px;
+float: left;
+}
+.skill-img2{
+width: 25%;
+padding-left: 30px;
+float: right;
+}
+/*.skill-p1{
+    clear: left;
+}
+.skill-p2{
+    clear:right;
+}*/
+.con{
+    line-height: 2;
+    margin-bottom: 40px;
+}
+.btn {
+  background: #3bb1ff;
+  background-image: -webkit-linear-gradient(top, #3bb1ff, #0a2638);
+  background-image: -moz-linear-gradient(top, #3bb1ff, #0a2638);
+  background-image: -ms-linear-gradient(top, #3bb1ff, #0a2638);
+  background-image: -o-linear-gradient(top, #3bb1ff, #0a2638);
+  background-image: linear-gradient(to bottom, #3bb1ff, #0a2638);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #eb0909;
+  background-image: -webkit-linear-gradient(top, #eb0909, #d93442);
+  background-image: -moz-linear-gradient(top, #eb0909, #d93442);
+  background-image: -ms-linear-gradient(top, #eb0909, #d93442);
+  background-image: -o-linear-gradient(top, #eb0909, #d93442);
+  background-image: linear-gradient(to bottom, #eb0909, #d93442);
+  text-decoration: none;
+}
+.copyright{
+    color:#EAF6F6;
+    padding-top: 10px;
+    padding-right: 30px;
+}
